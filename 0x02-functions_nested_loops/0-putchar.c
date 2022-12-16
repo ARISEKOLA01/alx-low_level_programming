@@ -5,7 +5,6 @@
  * is written by arisekola
  * Return: 0
  */
-
 int main(void)
 {
 	_putchar('_');
