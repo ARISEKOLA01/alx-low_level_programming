@@ -1,18 +1,18 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
-*print_numbers - print 0123456789
-* owned by Bwave ICT
-*Return: void
+*print_numbers - function that print all numbers from 0 to 9
+*
+*Return: return void
 */
 
 void print_numbers(void)
 {
-	char c;
-
-	for (c = '0'; c <= '9'; c++)
-	{
-	_putchar(c);
-	}
-	_putchar('\n');
+int n;
+for (n = 48; n < 58; n++)
+{
+putchar(n);
+}
+putchar(10);
 }
